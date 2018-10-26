@@ -1,0 +1,11 @@
+
+You need to add these new payment methods:
+
+PayPal - tax 10
+Wire Transfer - tax 5
+Bitcoins - tax 50
+ 
+ 
+Use Strategy pattern to add new payment methods so you don't need to change ShoppingCart class every time.
+Start moving pay method to an interface.
+ 
