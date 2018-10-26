@@ -1,0 +1,23 @@
+
+You need to add these new gift options:
+
+	NO PACKING:  just plain price
+	
+	INTERNATIONAL DELIVERY :  price plus 5
+	
+	GIFT PACKING:  price  plus 15
+	
+	PREMIUM DISCOUNT:  price minus 10
+	
+ 
+Use Decorator pattern to add new payment methods so you don't need to change many classes every time 
+and support any gift option combination.
+
+Given a 10 as a book price, you should have:
+
+                                          International Order price: 15 (10 + 5)
+                                   International Gift Order price: 30 (10 + 5 + 15)
+ International Gift Premium Discount Order price: 20 (10 + 5 + 15 - 10)
+        International Premium Discount Order price: 5   (10 + 5 - 10)
+        
+        
