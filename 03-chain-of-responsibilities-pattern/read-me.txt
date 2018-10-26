@@ -1,0 +1,18 @@
+ 
+Use chain of responsibility pattern to define this exact verification flowing that order:
+
+1.Cash  (limit = 100)
+2.Credit Card  (limit = 1000)
+3.Bitcoin  (limit = 1000000)
+
+Given two orders of 1000 and 5000, you should have:
+
+ Placing $1000 order :
+Cash payment not allowed!
+Credit Card payment good for 1000
+Bitcoin payment good for 1000
+-----------------------------------------
+ Placing $5000 order :
+Cash payment not allowed!
+Credit Card payment not allowed!
+Bitcoin payment good for 5000
